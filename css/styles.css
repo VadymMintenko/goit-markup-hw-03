@@ -38,6 +38,7 @@ ul {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
+  margin: 0 auto;
   /* margin-left: auto;
   margin-right: auto; */
  
@@ -341,14 +342,11 @@ footer {
   color: var(--title-text-color);
 }
 
-.logo-footer {
-  margin-left: 215px;
-}
 
 
 .address-list {
   padding-top: 20px;
-  margin-left: 215px;
+  
   
 }
 
@@ -413,16 +411,26 @@ footer {
 .buttons {
   padding-left: 22px;
   padding-right: 22px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   border: 0px;
+}
+
+.button-list {
+ padding-left: 0 auto;
+ 
 }
 
 .button-portfolio {
   
   display: flex;
+ justify-content: center;
   gap: 8px;
   padding-top: 94px;
-  margin-left: 512px;
-  
+   
+
+   
+
 }
 
 .projects {
@@ -444,7 +452,7 @@ footer {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 27px;
+  gap: 26px;
   margin-left: 215px;
   margin-right: 215px;
   padding-top: 34px;
