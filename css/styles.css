@@ -14,6 +14,8 @@ ul {
   --bgc-dark: rgba(47, 48, 58, 1);
   --button-color: rgba(33, 150, 243, 1);
   --portfolio-buttons-color: rgba(245, 244, 250, 1);
+  --border-color: rgba(236, 236, 236, 1);
+  --portfolio-border-color: rgba(238, 238, 238, 1);
 }
 
 *,
@@ -63,6 +65,12 @@ header {
 
 .header-nav {
   display: flex;
+}
+
+.header-border {
+   border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--border-color);
 }
 
 .site-nav {
@@ -436,9 +444,33 @@ footer {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 30px;
+  gap: 27px;
   margin-left: 215px;
   margin-right: 215px;
   padding-top: 34px;
   padding-bottom: 94px;
+}
+.border {
+   border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-bottom-color: var(--portfolio-border-color);
+   border-right-width: 1px;
+  border-right-style: solid;
+  border-right-color: var(--portfolio-border-color);
+    border-left-width: 1px;
+  border-left-style: solid;
+  border-left-color: var(--portfolio-border-color);
+}
+
+.projects {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 4px;
+}
+
+.project-type {
+padding-left: 24px;
+padding-right: 24px;
+padding-bottom: 20px;
 }
