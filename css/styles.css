@@ -231,6 +231,11 @@ img {
   padding-top: 94px;
 }
 
+.section:nth-child(4) {
+  padding-top: 94px;
+}
+
+
 .work-images {
   display: flex;
   gap: 30px;
