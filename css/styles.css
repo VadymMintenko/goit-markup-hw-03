@@ -35,7 +35,8 @@ ul {
 }
 
 .container {
-  width: 1200px;
+  width: 100%;
+  max-width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -214,6 +215,10 @@ header {
   margin: auto;
 }
 
+.list {
+  margin-bottom: 10px;
+}
+
 .list-description {
   margin-top: 10px;
 }
@@ -344,7 +349,7 @@ footer {
 
 
 
-.address-list {
+.address-list a {
   padding-top: 20px;
   
   
