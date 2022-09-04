@@ -1,6 +1,5 @@
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f5f5f5;
   color: var(--main-text-color);
 }
 ul {
@@ -40,8 +39,7 @@ ul {
 }
 
 .container {
-  width: 100%;
-  max-width: 1200px;
+  width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -57,13 +55,13 @@ img {
   padding-bottom: 200px;
 }
 
-.second-bgc {
+/* .second-bgc {
   background-color: var(--title-text-color);
-}
+} */
 
-.third-bgc {
+/* .third-bgc {
   background-color: var(--title-text-color);
-}
+} */
 
 .fourth-bgc {
   background-color: var(--portfolio-buttons-color);
@@ -71,12 +69,10 @@ img {
 
 /* Header */
 
-.header-border {
-  border-bottom: 1px solid var(--border-color);
-}
 
 .page-header {
-  background-color: var(--title-text-color);
+  /* background-color: var(--title-text-color); */
+  border-bottom: 1px solid var(--border-color);
 }
 
 .logo {
@@ -260,6 +256,7 @@ img {
 }
 
 .name {
+  text-align: center;
   margin-top: 30px;
   margin-bottom: 10px;
 }
@@ -269,11 +266,18 @@ img {
   line-height: 1.2;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
+  text-align: center;
+  margin-bottom: 30px;
 }
 
 .cards {
   display: flex;
   gap: 30px;
+}
+
+.cards li {
+  background-color: var(--title-text-color);
+  border-radius: 4px;
 }
 
 /* Footer */
@@ -293,7 +297,6 @@ footer {
 
 .logo-footer {
   display: block;
-  padding-top: 60px;
   margin-bottom: 20px;
 }
 
@@ -308,9 +311,9 @@ footer {
   color: var(--title-text-color);
 }
 
-.address-list a:not(:last-child) {
+.address-list :not(:last-child) {
   display: block;
-  padding-bottom: 9px;
+  margin-bottom: 9px;
 }
 
 .address-list .address-link {
@@ -324,6 +327,7 @@ footer {
 
 .last {
   padding-bottom: 60px;
+  padding-top: 60px;
 }
 
 /* Portfolio */
@@ -366,10 +370,12 @@ footer {
   display: flex;
   gap: 8px;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .section-portfolio {
   padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .projects {
@@ -381,9 +387,7 @@ footer {
 }
 
 .projects {
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 
 .project-type {
@@ -394,10 +398,7 @@ footer {
   color: var(--main-text-color);
 }
 
-.project-type {
-  margin-bottom: 20px;
-  margin-left: 24px;
-}
+
 
 .project-galery {
   display: flex;
@@ -405,6 +406,12 @@ footer {
   gap: 30px;
 }
 
-.project-galery li {
+.project-border {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
   border-bottom: 1px solid var(--border-color);
+  border-left: 1px solid var(--border-color);
+  border-right: 1px solid var(--border-color);
 }
